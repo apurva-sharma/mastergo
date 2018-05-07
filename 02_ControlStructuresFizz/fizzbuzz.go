@@ -20,6 +20,7 @@ func fizzbuzz(n int) {
 		}
 	}
 }
+
 func main() {
 	n := 50
 	if len(os.Args) > 1 {

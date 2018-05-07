@@ -6,6 +6,9 @@ import (
 	"strconv"
 )
 
+/*
+Collatz Conjecture
+*/
 func collatz(n int) int {
 	count := 0
 	for n != 1 {
